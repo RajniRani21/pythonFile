@@ -10,4 +10,4 @@ jobs:
           python-version: '3.x'
       - run: python --version
       - name: python script
-        run:  python githubaction.py
+        run:  python consecutive.py
