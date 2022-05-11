@@ -1,5 +1,10 @@
 name: main
-on: [push]
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        type: number
+        description: 'Enter the number'
 jobs:
   check-python-version:
     runs-on: ubuntu-latest
